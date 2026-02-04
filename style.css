@@ -1,0 +1,65 @@
+body {
+    margin: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+background-image: url('https://img.freepik.com/premium-photo/watercolor-illustration-red-cherries-leaves-bow-white-background_1352884-25159.jpg');
+  background-repeat: no-repeat;      
+    background-size: cover;             
+    background-position: center;  
+}
+
+header {
+    background-color: transparent;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 20px 0;
+    color: rgb(234, 0, 0);
+     font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+     font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+a h6 {
+    margin: 0;
+}
+
+div {
+    margin-top: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.card {
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    align-items: center;
+    gap: 12px;
+}
+
+.card img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+audio {
+    width: 250px;
+}
+.cursive-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
